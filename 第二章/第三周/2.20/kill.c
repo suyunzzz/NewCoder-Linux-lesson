@@ -15,14 +15,7 @@
         kill(getppid(), 9);
         kill(getpid(), 9);
         
-    int raise(int sig);
-        - 功能：给当前进程发送信号
-        - 参数：
-            - sig : 要发送的信号
-        - 返回值：
-            - 成功 0
-            - 失败 非0
-        kill(getpid(), sig);   
+x
 
     void abort(void);
         - 功能： 发送SIGABRT信号给当前的进程，杀死当前进程
